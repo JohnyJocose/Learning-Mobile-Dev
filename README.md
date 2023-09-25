@@ -11,12 +11,8 @@ Arrays, Dictionaries, Enums, Functions, and more.
 User interface elements like Buttons, Textfields, CollectionViews, and TableViews.
 Implementations of Gestures, Layouts, and various UI components.
 Feel free to dive into the code, experiment, and learn from it.
-<div style="width: 25%; height: 25%">
-  
-  ![Simulator Screenshot - iPhone 15 Pro - 2023-09-25 at 00 50 16](https://github.com/JohnyJocose/Learning-Mobile-Dev/assets/137121970/cdcb327f-411b-4af6-a8b0-6acef4fbe7ca)
-  
-</div>
 
+<img src="https://github.com/JohnyJocose/Learning-Mobile-Dev/assets/137121970/cdcb327f-411b-4af6-a8b0-6acef4fbe7ca" width=100px height=100px>
 
 
 ## Project Purpose
