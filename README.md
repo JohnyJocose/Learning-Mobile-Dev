@@ -7,9 +7,10 @@ Welcome to my iOS app development repository! This collection contains various S
 
 Explore the code examples related to:
 
-Arrays, Dictionaries, Enums, Functions, and more.
-User interface elements like Buttons, Textfields, CollectionViews, and TableViews.
-Implementations of Gestures, Layouts, and various UI components.
+- Arrays, Dictionaries, Enums, Functions, and more.
+- User interface elements like Buttons, Textfields, CollectionViews, and TableViews.
+- Implementations of Gestures, Layouts, and various UI components.
+
 Feel free to dive into the code, experiment, and learn from it.
 
 <img src="https://github.com/JohnyJocose/Learning-Mobile-Dev/assets/137121970/cdcb327f-411b-4af6-a8b0-6acef4fbe7ca" width=300px>
@@ -23,8 +24,9 @@ The goal of this project is to deepen my understanding of programmatic coding in
 
 To explore these examples, you'll need:
 
-Xcode installed on your machine.
-Basic knowledge of coding languages, particularly Swift.
+- Xcode installed on your machine.
+- Basic knowledge of coding languages, particularly Swift.
+
 ## Author
 
 Hello! I'm Johnathan Huijon, an aspiring iOS developer and a graduate of the University of Texas at Austin. My journey into iOS development began with storyboards, and this project marks my transition into programmatic coding. In addition to coding, I enjoy kayaking, hiking, and video games. As I continue learning, I plan to expand this repository to cover networking, API calls, and showcase personal projects in separate repositories. If you'd like to reach out, feel free to email me at johnathan.huijon@gmail.com.
