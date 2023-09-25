@@ -33,8 +33,8 @@ Hello! I'm Johnathan Huijon, an aspiring iOS developer and a graduate of the Uni
 
 I've drawn inspiration and knowledge from various sources including:
 
-Sean Allen
-iOS Academy
-Hacking with Swift articles
-Stack Overflow community
-Happy coding and learning!
+- Sean Allen
+- iOS Academy
+- Hacking with Swift articles
+- Stack Overflow community
+- Happy coding and learning!
