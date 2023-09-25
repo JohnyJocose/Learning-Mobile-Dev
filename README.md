@@ -39,4 +39,5 @@ I've drawn inspiration and knowledge from various sources including:
 - iOS Academy
 - Hacking with Swift articles
 - Stack Overflow community
-- Happy coding and learning!
+
+Happy coding and learning!
