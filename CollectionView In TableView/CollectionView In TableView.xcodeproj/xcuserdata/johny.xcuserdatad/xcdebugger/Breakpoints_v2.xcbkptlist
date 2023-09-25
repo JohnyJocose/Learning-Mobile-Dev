@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DCC9885B-9547-4A3F-8104-6453FF3ECA95"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F44F428B-CE68-4717-ABE6-4898929723FA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CollectionView In TableView/ShoppingItems.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "alliPhones"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "F44F428B-CE68-4717-ABE6-4898929723FA - 4e713c02e7751ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CollectionView_In_TableView.ShoppingCatalog.alliPhones.unsafeMutableAddressor : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "CollectionView In TableView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johny/Desktop/Learning%20Programmatic%20iOS%20Mobile%20Development/How%20To.../CollectionView%20In%20TableView/CollectionView%20In%20TableView/ShoppingItems.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "F44F428B-CE68-4717-ABE6-4898929723FA - 25e895f536f3ff35"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "one-time initialization function for alliPhones"
+                  moduleName = "CollectionView In TableView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johny/Desktop/Learning%20Programmatic%20iOS%20Mobile%20Development/How%20To.../CollectionView%20In%20TableView/CollectionView%20In%20TableView/ShoppingItems.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

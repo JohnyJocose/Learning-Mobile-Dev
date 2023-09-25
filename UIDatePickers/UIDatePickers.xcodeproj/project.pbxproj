@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D357E3B32AB2909900653FCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D357E3B22AB2909900653FCA /* AppDelegate.swift */; };
+		D357E3B52AB2909900653FCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D357E3B42AB2909900653FCA /* SceneDelegate.swift */; };
+		D357E3B72AB2909900653FCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D357E3B62AB2909900653FCA /* ViewController.swift */; };
+		D357E3BC2AB2909B00653FCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D357E3BB2AB2909B00653FCA /* Assets.xcassets */; };
+		D357E3BF2AB2909B00653FCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D357E3BD2AB2909B00653FCA /* LaunchScreen.storyboard */; };
+		D357E3C72AB298EE00653FCA /* WheelsTimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D357E3C62AB298EE00653FCA /* WheelsTimeVC.swift */; };
+		D357E3C92AB2990400653FCA /* WheelsDateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D357E3C82AB2990400653FCA /* WheelsDateVC.swift */; };
+		D357E3CB2AB2992200653FCA /* WheelsDateTimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D357E3CA2AB2992200653FCA /* WheelsDateTimeVC.swift */; };
+		D357E3CD2AB2993200653FCA /* WheelsCountDownVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D357E3CC2AB2993200653FCA /* WheelsCountDownVC.swift */; };
+		D357E3CF2AB2994300653FCA /* CompactTimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D357E3CE2AB2994300653FCA /* CompactTimeVC.swift */; };
+		D357E3D12AB2995500653FCA /* CompactDateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D357E3D02AB2995500653FCA /* CompactDateVC.swift */; };
+		D357E3D32AB2996800653FCA /* CompactDateTimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D357E3D22AB2996800653FCA /* CompactDateTimeVC.swift */; };
+		D357E3D52AB2997900653FCA /* InlineTimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D357E3D42AB2997900653FCA /* InlineTimeVC.swift */; };
+		D357E3D72AB2998D00653FCA /* InlineDateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D357E3D62AB2998D00653FCA /* InlineDateVC.swift */; };
+		D357E3D92AB299AA00653FCA /* InlineDateTimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D357E3D82AB299AA00653FCA /* InlineDateTimeVC.swift */; };
+		D357E3DB2AB2AB7400653FCA /* dateFormatPic.png in Resources */ = {isa = PBXBuildFile; fileRef = D357E3DA2AB2AB7400653FCA /* dateFormatPic.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D357E3AF2AB2909900653FCA /* UIDatePickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIDatePickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D357E3B22AB2909900653FCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D357E3B42AB2909900653FCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D357E3B62AB2909900653FCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D357E3BB2AB2909B00653FCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D357E3BE2AB2909B00653FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D357E3C02AB2909B00653FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D357E3C62AB298EE00653FCA /* WheelsTimeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelsTimeVC.swift; sourceTree = "<group>"; };
+		D357E3C82AB2990400653FCA /* WheelsDateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelsDateVC.swift; sourceTree = "<group>"; };
+		D357E3CA2AB2992200653FCA /* WheelsDateTimeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelsDateTimeVC.swift; sourceTree = "<group>"; };
+		D357E3CC2AB2993200653FCA /* WheelsCountDownVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelsCountDownVC.swift; sourceTree = "<group>"; };
+		D357E3CE2AB2994300653FCA /* CompactTimeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactTimeVC.swift; sourceTree = "<group>"; };
+		D357E3D02AB2995500653FCA /* CompactDateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactDateVC.swift; sourceTree = "<group>"; };
+		D357E3D22AB2996800653FCA /* CompactDateTimeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactDateTimeVC.swift; sourceTree = "<group>"; };
+		D357E3D42AB2997900653FCA /* InlineTimeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineTimeVC.swift; sourceTree = "<group>"; };
+		D357E3D62AB2998D00653FCA /* InlineDateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineDateVC.swift; sourceTree = "<group>"; };
+		D357E3D82AB299AA00653FCA /* InlineDateTimeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineDateTimeVC.swift; sourceTree = "<group>"; };
+		D357E3DA2AB2AB7400653FCA /* dateFormatPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dateFormatPic.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D357E3AC2AB2909900653FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D357E3A62AB2909900653FCA = {
+			isa = PBXGroup;
+			children = (
+				D357E3B12AB2909900653FCA /* UIDatePickers */,
+				D357E3B02AB2909900653FCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D357E3B02AB2909900653FCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D357E3AF2AB2909900653FCA /* UIDatePickers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D357E3B12AB2909900653FCA /* UIDatePickers */ = {
+			isa = PBXGroup;
+			children = (
+				D357E3B22AB2909900653FCA /* AppDelegate.swift */,
+				D357E3B42AB2909900653FCA /* SceneDelegate.swift */,
+				D357E3B62AB2909900653FCA /* ViewController.swift */,
+				D357E3D82AB299AA00653FCA /* InlineDateTimeVC.swift */,
+				D357E3D62AB2998D00653FCA /* InlineDateVC.swift */,
+				D357E3D42AB2997900653FCA /* InlineTimeVC.swift */,
+				D357E3D22AB2996800653FCA /* CompactDateTimeVC.swift */,
+				D357E3D02AB2995500653FCA /* CompactDateVC.swift */,
+				D357E3CE2AB2994300653FCA /* CompactTimeVC.swift */,
+				D357E3CC2AB2993200653FCA /* WheelsCountDownVC.swift */,
+				D357E3CA2AB2992200653FCA /* WheelsDateTimeVC.swift */,
+				D357E3C82AB2990400653FCA /* WheelsDateVC.swift */,
+				D357E3C62AB298EE00653FCA /* WheelsTimeVC.swift */,
+				D357E3BB2AB2909B00653FCA /* Assets.xcassets */,
+				D357E3BD2AB2909B00653FCA /* LaunchScreen.storyboard */,
+				D357E3C02AB2909B00653FCA /* Info.plist */,
+				D357E3DA2AB2AB7400653FCA /* dateFormatPic.png */,
+			);
+			path = UIDatePickers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D357E3AE2AB2909900653FCA /* UIDatePickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D357E3C32AB2909B00653FCA /* Build configuration list for PBXNativeTarget "UIDatePickers" */;
+			buildPhases = (
+				D357E3AB2AB2909900653FCA /* Sources */,
+				D357E3AC2AB2909900653FCA /* Frameworks */,
+				D357E3AD2AB2909900653FCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIDatePickers;
+			productName = UIDatePickers;
+			productReference = D357E3AF2AB2909900653FCA /* UIDatePickers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D357E3A72AB2909900653FCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D357E3AE2AB2909900653FCA = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D357E3AA2AB2909900653FCA /* Build configuration list for PBXProject "UIDatePickers" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D357E3A62AB2909900653FCA;
+			productRefGroup = D357E3B02AB2909900653FCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D357E3AE2AB2909900653FCA /* UIDatePickers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D357E3AD2AB2909900653FCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D357E3BF2AB2909B00653FCA /* LaunchScreen.storyboard in Resources */,
+				D357E3BC2AB2909B00653FCA /* Assets.xcassets in Resources */,
+				D357E3DB2AB2AB7400653FCA /* dateFormatPic.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D357E3AB2AB2909900653FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D357E3D92AB299AA00653FCA /* InlineDateTimeVC.swift in Sources */,
+				D357E3B72AB2909900653FCA /* ViewController.swift in Sources */,
+				D357E3C72AB298EE00653FCA /* WheelsTimeVC.swift in Sources */,
+				D357E3B32AB2909900653FCA /* AppDelegate.swift in Sources */,
+				D357E3D12AB2995500653FCA /* CompactDateVC.swift in Sources */,
+				D357E3C92AB2990400653FCA /* WheelsDateVC.swift in Sources */,
+				D357E3B52AB2909900653FCA /* SceneDelegate.swift in Sources */,
+				D357E3CF2AB2994300653FCA /* CompactTimeVC.swift in Sources */,
+				D357E3CB2AB2992200653FCA /* WheelsDateTimeVC.swift in Sources */,
+				D357E3CD2AB2993200653FCA /* WheelsCountDownVC.swift in Sources */,
+				D357E3D32AB2996800653FCA /* CompactDateTimeVC.swift in Sources */,
+				D357E3D52AB2997900653FCA /* InlineTimeVC.swift in Sources */,
+				D357E3D72AB2998D00653FCA /* InlineDateVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D357E3BD2AB2909B00653FCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D357E3BE2AB2909B00653FCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D357E3C12AB2909B00653FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D357E3C22AB2909B00653FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D357E3C42AB2909B00653FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R45N6NL9P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UIDatePickers/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JohnyJocose.UIDatePickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D357E3C52AB2909B00653FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R45N6NL9P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UIDatePickers/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JohnyJocose.UIDatePickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D357E3AA2AB2909900653FCA /* Build configuration list for PBXProject "UIDatePickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D357E3C12AB2909B00653FCA /* Debug */,
+				D357E3C22AB2909B00653FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D357E3C32AB2909B00653FCA /* Build configuration list for PBXNativeTarget "UIDatePickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D357E3C42AB2909B00653FCA /* Debug */,
+				D357E3C52AB2909B00653FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D357E3A72AB2909900653FCA /* Project object */;
+}
