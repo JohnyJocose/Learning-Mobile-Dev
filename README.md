@@ -12,7 +12,7 @@ User interface elements like Buttons, Textfields, CollectionViews, and TableView
 Implementations of Gestures, Layouts, and various UI components.
 Feel free to dive into the code, experiment, and learn from it.
 
-<img src="https://github.com/JohnyJocose/Learning-Mobile-Dev/assets/137121970/cdcb327f-411b-4af6-a8b0-6acef4fbe7ca" width=100px height=100px>
+<img src="https://github.com/JohnyJocose/Learning-Mobile-Dev/assets/137121970/cdcb327f-411b-4af6-a8b0-6acef4fbe7ca" width=300px>
 
 
 ## Project Purpose
